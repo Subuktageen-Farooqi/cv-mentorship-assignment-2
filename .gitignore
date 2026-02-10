@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# venv
+.venv/
+
+# data + caches
+data/
+.cache/
+*.onnx
+checkpoints/
+part_1_results/
+part_2_results/
+!part_1_results/summary.txt
+!part_1_results/cn_*.png
+!part_2_results/summary.txt
+
+# OS / IDE
+.vscode/
+.DS_Store
+Thumbs.db
