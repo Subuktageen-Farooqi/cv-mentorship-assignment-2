@@ -1,26 +1,28 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 *.pkl
 *.log
 
-# venv
+# Virtual env
 .venv/
-
-# data + caches
-data/
-.cache/
-*.onnx
-checkpoints/
-part_1_results/
-part_2_results/
-!part_1_results/summary.txt
-!part_1_results/cn_*.png
-!part_2_results/summary.txt
 
 # OS / IDE
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Data / caches
+data/
+.cache/
+
+# Big artifacts
+*.onnx
+checkpoints/
+part_1_results/
+part_2_results/
+
+# Keep small deliverables
+!part_1_results/summary.txt
+!part_1_results/cn_*.png
+!part_2_results/summary.txt
