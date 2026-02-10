@@ -1,0 +1,4 @@
+Model Artifact           Accuracy   Macro F1   Weighted F1
+ONNX FP32                0.9970     0.9970     0.9970
+ONNX INT8 Dynamic        0.9970     0.9970     0.9970
+ONNX INT8 Static         0.9966     0.9966     0.9966
